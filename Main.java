@@ -12,9 +12,15 @@ public class Main {
         qualquer.name = "Rita";
         qualquer.sobrenome = "Lee";
         // Definir comportamento do objeto
-        qualquer.falar();
+        qualquer.falar("baixo");
         adao.falar("baixo");
+        Produto pestisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto(2,"Vermifugo");
+        Produto brinquedo = new Produto(3, "Bolinha");
 
+
+        petisco.setNome = ("biscoito");
 
 
 
